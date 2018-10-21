@@ -1,0 +1,21 @@
+{
+    "name": "jsonmark/composer_test2",
+    "description": "a test composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jsonmark",
+            "email": "3401889728@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hello\\": "src"
+        }
+    }
+}
